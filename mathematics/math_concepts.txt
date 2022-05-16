@@ -1,0 +1,24 @@
+QUADRATIC EQUATIONS:
+1. a*x^2 + b*x + c = 0
+2. discriminant(D) = b^2 - 4*a*c;
+    if D < 0, we have imaginary roots
+    if D == 0, we have two equal roots
+    if D > 0, we have the two distinct roots
+3. roots = ((-b) + D)/2*a, ((-b) - D)/2*a
+4. An array can be used to store quadratic equations and its indexes can represent the exponents
+    q = [1,2,3] can represent the equation ->  1*(x^2) + 2*(x) + 3
+    and each exponent can be obtained by (n - 1 - index), starting from the left.
+------------------------------------------------------------------------------------------------------------------------
+MEAN & MEDIAN:
+Mean - Simple mathematical average.
+Median - The middle point found by ordering all data points; if two middles exist,
+        take their average and that is the median.
+------------------------------------------------------------------------------------------------------------------------
+PRIMES:
+1. Every prime number (except two and three) can be represented as 6n+1 or 6n-1, where n is
+    natural number.
+2. 2 and 3 are the only consecutive primes.
+------------------------------------------------------------------------------------------------------------------------
+LCM & HCF:
+1. Factors - All the numbers that completely divide a given number are its factors.
+2. 
