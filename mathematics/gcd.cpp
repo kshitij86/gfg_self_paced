@@ -14,7 +14,7 @@ int gcd_naive(int a, int b){
   int gcd_ans = 0;
   for(int i=2; i<=min_limit; i++){
     if((a%i==0) && (b%i==0)){
-      gcd_ans =max(i,gcd_ans);
+      gcd_ans = max(i,gcd_ans);
     }
   }
   return gcd_ans;
@@ -35,6 +35,7 @@ int gcd_optimal(int a, int b){
   if(b==0){
     return a;
   }
+  // if a > b, b%a = 0
   // we return gcd(b, a%b) as a>b initially and then we write
   // a = b(q) + r, so now b is techincally >= r
   // so r = a%b is atmost b and b will be larger too
