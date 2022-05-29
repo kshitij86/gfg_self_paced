@@ -79,7 +79,7 @@ int second_largest_optimal(vector<int> arr){
         }
         if(arr[i] < l1){
             // compare with l2
-            if(l2 == -1 && l2 < arr[i]){
+            if(l2 == -1 || l2 < arr[i]){
                 // if either l2 is uninitialized or there is an element
                 // arr[i] such that l2 < a[i] < l1
                 // so we update l2 to a[i]
