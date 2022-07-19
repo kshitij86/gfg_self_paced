@@ -1,0 +1,5 @@
+TreeNode *root = new TreeNode(10);
+	root->left = new TreeNode(7);
+	root->right = new TreeNode(19);
+	root->left->right = new TreeNode(6);
+	root->right->left = new TreeNode(12);
